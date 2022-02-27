@@ -73,11 +73,13 @@ const Login = ({classes}) => {
         console.log(res)
         setaccount(res.profileObj);
         addUser(res.profileObj);
+		alert("login success")
       //
     }
 
     const onLoginFailure = () => {
         console.log('failer')
+		alert("login failed fuck")
     }
 
     useEffect(() => {
