@@ -1,6 +1,6 @@
 const axios = require('axios')
 
-const url ='http://localhost:4000'
+const url ='https://whatsapp-masterclone.herokuapp.com'
 
 export const addUser = async (data) => {
     try{
