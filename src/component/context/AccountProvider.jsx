@@ -16,7 +16,7 @@ const AccountProvider = ({children}) => {
     const [newMessageFlag, setNewMessageFlag] = useState(false);
     const socket = useRef();
     useEffect(() => {
-      socket.current = io('ws://localhost:9000');
+      socket.current = io('https://whatsapp-masterclone.herokuapp.com');
   }, [])
 
     return (
