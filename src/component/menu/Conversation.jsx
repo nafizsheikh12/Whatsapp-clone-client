@@ -72,7 +72,7 @@ const Conversation = ({user}) => {
                    </Typography>
                    {
                        message.text &&
-                       <Typography>
+                       <Typography style={{paddingTop:"5px"}}>
                            {new Date(message.timestamp).getHours()}:{new Date(message.timestamp).getMinutes}
                        </Typography>
                    }
